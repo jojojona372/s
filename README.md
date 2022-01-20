@@ -7,8 +7,8 @@ type 's(...)' than to type 'XSteam(...)' every time.
 Go to [this page](https://raw.githubusercontent.com/jojojona372/s/main/s.m), and right-click. Then select "save as", and save the file somewhere.
 
 ## Install instructions
-Download `s.m`, and place it in the folder that you'd like to use.
-Next, use the command `pathtool` in Matlab to add the folder that you placed `s.m` in, to your Matlab path.
+1. Download `s.m`, and place it in the folder that you'd like to use. If you place it in the same folder as `XSteam.m`, the next step should not be necessary.
+2. Next, use the command `pathtool` in Matlab to add the folder that you placed `s.m` in, to your Matlab path.
 
 # How to use
 ## As a shortcut
