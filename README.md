@@ -4,12 +4,12 @@ This script makes it possible to use XSteam on arrays, too. Also, it's shorter t
 type 's(...)' than to type 'XSteam(...)' every time.
 
 ## Install instructions
-Download s.m, and place it in the folder that you'd like to use.
-Next, use the command pathtool in Matlab to add the folder that you placed s.m in to your Matlab path.
+Download `s.m`, and place it in the folder that you'd like to use.
+Next, use the command `pathtool` in Matlab to add the folder that you placed `s.m` in, to your Matlab path.
 
 # How to use
 ## As a shortcut
-s() can be used as a shortcut for XSteam, since typing "s" is a lot
+`s()` can be used as a shortcut for `XSteam()`, since typing "s" is a lot
 faster than typing "XSteam" every time.
 You can use it the same way you use XSteam, but instead of `XSteam(...)`
 you write `s(...)`.
