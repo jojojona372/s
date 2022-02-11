@@ -1,21 +1,21 @@
 # README
 ## XSteam shortcut for Matlab
 This script makes it possible to use XSteam on arrays, too. Also, it's shorter to
-type 's(...)' than to type 'XSteam(...)' every time.
+type 'xs(...)' than to type 'XSteam(...)' every time.
 
 ## Download instructions
-Go to [this page](https://raw.githubusercontent.com/jojojona372/s/main/s.m), and right-click. Then select "save as", and save the file somewhere.
+Go to [this page](https://raw.githubusercontent.com/jojojona372/s/main/xs.m), and right-click. Then select "save as", and save the file somewhere.
 
 ## Install instructions
-1. Download `s.m`, and place it in the folder that you'd like to use. If you place it in the same folder as `XSteam.m`, the next step should not be necessary.
-2. Next, use the command `pathtool` in Matlab to add the folder that you placed `s.m` in, to your Matlab path.
+1. Download `xs.m`, and place it in the folder that you'd like to use. If you place it in the same folder as `XSteam.m`, the next step should not be necessary.
+2. Next, use the command `pathtool` in Matlab to add the folder that you placed `xs.m` in, to your Matlab path.
 
 # How to use
 ## As a shortcut
-`s()` can be used as a shortcut for `XSteam()`, since typing "s" is a lot
+`s()` can be used as a shortcut for `XSteam()`, since typing "xs" is a lot
 faster than typing "XSteam" every time.
 You can use it the same way you use XSteam, but instead of `XSteam(...)`
-you write `s(...)`.
+you write `xs(...)`.
 
 
 For example:  
@@ -25,8 +25,8 @@ XSteam('h_pT',1,50)
 ```
 Becomes:  
 ```
-s('Tsat_p',1)  
-s('h_pT',1,50)  
+xs('Tsat_p',1)  
+xs('h_pT',1,50)  
 ```
 
 ## For arrays
@@ -41,7 +41,7 @@ For example:
 ```
 P = [0.1,1,20,50];  
 T = [0.1,1,10];  
-s('h_pt',P,T);  
+xs('h_pt',P,T);  
 ```
 This will give a 4x3 array as output. This is very useful for quickly
 generating large amounts of data.
@@ -58,7 +58,7 @@ For example:
 ```
 P = [4,  154, 108];
 T = [120, 88, 317];
-enthalpy = s('h_pt',P,T,1);
+enthalpy = xs('h_pt',P,T,1);
 ```
 Will return:  
 ```
