@@ -3,6 +3,8 @@
 This script makes it possible to use XSteam on arrays, too. Also, it's shorter to
 type 'xs(...)' than to type 'XSteam(...)' every time.
 
+## NB: XSteam was written by the great Magnus Holmgren, not by me.
+
 ## Download instructions
 Go to [this page](https://raw.githubusercontent.com/jojojona372/s/main/xs.m), and right-click. Then select "save as", and save the file somewhere.
 
